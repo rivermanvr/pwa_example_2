@@ -33,15 +33,15 @@ if (navigator.serviceWorker) {
 
       // Re-comment when you are finished with Example 3 (service worker Object)
 
-      registration.onupdatefound = () => {
-        console.log('New Service Worker Found');
+      // registration.onupdatefound = () => {
+      //   console.log('New Service Worker Found');
 
-        let newSW = registration.installing;
-        newSW.onstatechange = () => {
-          console.log(newSW.state);
-        }
+      //   let newSW = registration.installing;
+      //   newSW.onstatechange = () => {
+      //     console.log(newSW.state);
+      //   }
 
-      }
+      // }
 
     }).catch(console.log);
 }
